@@ -1,0 +1,33 @@
+{
+  "name": "mall-management-backend",
+  "version": "1.0.0",
+  "description": "Express.js REST API Backend for Mall Management System (Case Study: Phoenix Marketcity, Mumbai)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node test/api.test.js"
+  },
+  "keywords": [
+    "mall-management",
+    "postgresql",
+    "express",
+    "jwt",
+    "react",
+    "phoenix-marketcity"
+  ],
+  "author": "Mini Project 172 & 173",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
